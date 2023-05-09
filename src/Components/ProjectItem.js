@@ -29,6 +29,7 @@ const ProjectItem = ({ id, name, linkDemo, linkCode }) => {
             <a
               href={linkDemo}
               target="_blank"
+              rel="noreferrer"
               className=" bg-[#E86A33] p-2 rounded-full"
             >
               Live demo
@@ -38,6 +39,7 @@ const ProjectItem = ({ id, name, linkDemo, linkCode }) => {
             <a
               href={linkCode}
               target="_blank"
+              rel="noreferrer"
               className=" bg-[#E86A33] p-2 rounded-full "
             >
               See code
