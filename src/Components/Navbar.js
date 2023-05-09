@@ -31,19 +31,15 @@ const Navbar = () => {
   };
 
   const [isOpen, setisOpen] = useState(false);
-  //[#a0d2eb]
-  //[#e5eaf5]
-  //[#d0bdf4]
-  //[#8458b3]
-  //[#494d5f]
+
   return (
     <nav
-      className={`bg-[#263A29] z-50 fixed top-0 left-0 right-0 flex flex-col sm:flex-row justify-start sm:justify-between  py-3
+      className={`bg-[#263A29] z-50 fixed top-0 left-0 right-0 flex flex-col sm:flex-row justify-start sm:justify-between sm:py-10 py-3
         ${isOpen ? "inset-0 sm: sm:top-0" : ""}
 
         `}
     >
-      <div className="flex items-center justify-between text-2xl px-8 text-white">
+      <div className="flex items-center justify-between sm:text-5xl text-3xl px-8 text-white">
         <a href="/" style={{ fontFamily: "Dancing Script" }}>
           Andone
         </a>

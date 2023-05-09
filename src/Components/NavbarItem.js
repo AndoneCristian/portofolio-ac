@@ -10,12 +10,12 @@ const NavbarItem = ({ value, clickHandlerToFalse }) => {
       "
     >
       <Link
-        className=" p-4 px-14 sm:p-1   hover:sm:bg-transparent  hover:sm:border-b-2 hover:sm:border-[#E86A33] hover:bg-[#263A29] hover:text-[#E86A33] transition"
+        className=" p-4 px-14 sm:p-1 text-3xl  hover:sm:bg-transparent  hover:sm:border-b-2 hover:sm:border-[#E86A33] hover:bg-[#263A29] hover:text-[#E86A33] transition"
         onClick={clickHandlerToFalse}
         to={value}
         spy={true}
         smooth={true}
-        offset={-55}
+        offset={-140}
         duration={500}
       >
         {value}

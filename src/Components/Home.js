@@ -16,7 +16,7 @@ const Home = () => {
             className=" w-3/4 mx-auto flex flex-col gap-3 text-xs"
             style={{ fontFamily: "Pathway Extreme" }}
           >
-            <div className="flex whitespace-nowrap justify-center font-bold text-lg sm:text-2xl py-2 px-1 bg-[#41644A] text-[#F2E3DB] rounded-full">
+            <div className="flex whitespace-nowrap justify-center font-bold text-2xl sm:text-4xl py-8 px-2 bg-[#41644A] text-[#F2E3DB] rounded-full">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
@@ -36,7 +36,7 @@ const Home = () => {
                   href="https://www.linkedin.com/in/cristian-andone-829347254/"
                   className="text-[#0B65C3] flex hover:scale-105  hover:text-opacity-80"
                 >
-                  <AiFillLinkedin size={40} />
+                  <AiFillLinkedin size={80} />
                   <span className="flex items-center">Linkedin</span>
                 </a>
               </div>
@@ -46,7 +46,7 @@ const Home = () => {
                   href="https://github.com/AndoneCristian"
                   className="text-[#333] flex hover:scale-105 hover:text-opacity-80"
                 >
-                  <AiFillGithub size={40} />
+                  <AiFillGithub size={80} />
                   <span className="flex items-center">Github</span>
                 </a>
               </div>
@@ -56,7 +56,7 @@ const Home = () => {
                   href="https://www.instagram.com/andonecristi24/"
                   className=" flex hover:scale-105  hover:text-opacity-80 "
                 >
-                  <AiFillInstagram size={40} />
+                  <AiFillInstagram size={80} />
                   <span className="flex items-center">Instagram</span>
                 </a>
               </div>
@@ -64,13 +64,13 @@ const Home = () => {
           </div>
         </article>
       </div>
-      <div className="h-full w-full  flex justify-center items-center overflow-hidden">
+      <div className="h-full w-full  flex justify-center items-center overflow-hidden ">
         <div>
           <div>
             <img
               src={ImageFull}
-              alt=""
-              className="bg-[#41644A] rounded-[60%] w-1/2 mx-auto h-full"
+              alt="hero"
+              className="bg-[#41644A] rounded-[60%]  h-full sm:w-1/2 w-3/4 mx-auto "
             />
           </div>
         </div>

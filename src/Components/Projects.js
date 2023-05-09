@@ -35,14 +35,14 @@ export const projectsInfo = [
 const Projects = () => {
   return (
     <main id="Projects" className="w-full h-auto bg-[#263A29] pt-10 relative">
-      <p className="absolute  right-3 top-5 sm:right-12 text-white text-2xl">
+      <p className="absolute  right-3 top-5 sm:right-12 text-white text-2xl sm:text-6xl">
         Projects Page
       </p>
       <div
         className="w-full h-full bg-[#F1E3DB] flex items-end "
         style={{ clipPath: " polygon(0 0, 100% 15%, 100% 100%, 0 100%)" }}
       >
-        <div className="bg-[#F1E3DB] w-full mt-20 mb-2 flex flex-col flex-wrap sm:flex-row justify-center items-center gap-2">
+        <div className="bg-[#F1E3DB] w-full h-full   grid grid-cols-1 sm:grid-cols-2 place-items-center  gap-4   border-box px-20  pt-20">
           {projectsInfo.map(({ id, name, linkDemo, linkCode }) => {
             return (
               <ProjectItem

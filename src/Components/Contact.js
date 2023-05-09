@@ -29,14 +29,14 @@ const Contact = () => {
       id="Contact"
       className="w-full h-[100svh] bg-[#263A29] pt-10 relative"
     >
-      <p className="absolute  right-3 top-5 sm:right-12 text-white text-2xl">
+      <p className="absolute  right-3 top-5 sm:right-12 text-white text-2xl sm:text-6xl">
         Contact Page
       </p>
       <div
         className="w-full h-full bg-[#F1E3DB] flex items-end "
         style={{ clipPath: " polygon(0 0, 100% 15%, 100% 100%, 0 100%)" }}
       >
-        <div className="bg-[#F1E3DB] w-full h-[90%] flex justify-center items-center  text-white">
+        <div className="bg-[#F1E3DB] w-full h-[90%] flex justify-center items-center text-2xl sm:text-4xl text-white">
           <form
             ref={form}
             onSubmit={sendEmail}
@@ -60,7 +60,7 @@ const Contact = () => {
               name="message"
             />
             <button
-              className="w-24 h-8 bg-[#41644A] hover:bg-[#263A29] rounded-full mt-2 mx-auto  "
+              className="w-24  bg-[#41644A] hover:bg-[#263A29] rounded-full mt-2 mx-auto p-2 "
               type="submit"
               value="Send"
             >
